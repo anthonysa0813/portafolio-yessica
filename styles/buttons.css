@@ -1,0 +1,17 @@
+.btn-dark {
+  background-color: var(--main-black);
+  padding: 12px 32px;
+  color: var(--color-white);
+  border-radius: 1rem;
+}
+
+.btn {
+  border-bottom: 1px solid var(--main-black);
+}
+
+.buttonsContent {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}

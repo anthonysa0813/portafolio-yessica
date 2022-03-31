@@ -1,0 +1,52 @@
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url("./buttons.css");
+
+:root {
+  --color-primary: #faf7f0;
+  --color-bron: #883f16;
+  --color-secondary: #2429af;
+  --color-white: #f3f3f3;
+  --main-gray: #606060;
+  --main-black: #181717;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-primary);
+  margin: 0;
+}
+
+.debug {
+  border: 3px solid brown;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-dark {
+  color: var(--main-black);
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 1120px;
+  }
+}

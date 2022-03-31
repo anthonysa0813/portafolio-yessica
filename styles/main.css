@@ -1,0 +1,122 @@
+.mainProyect {
+  display: flex;
+  column-gap: 128px;
+  margin-block-start: 40px;
+  border-bottom: 1.5px solid #181717;
+  padding-block-end: 4rem;
+  margin-block-end: 5rem;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.mainImage img {
+  width: 100%;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.mainContainer h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.03em;
+}
+
+.mainContainer h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 121.5%;
+  /* identical to box height, or 22px */
+
+  letter-spacing: -0.03em;
+}
+
+.mainInfo p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: -0.03em;
+  color: var(--main-gray);
+}
+
+.habilitiesRow {
+  display: flex;
+  column-gap: 2rem;
+  width: 90%;
+}
+
+.habilityContainer {
+  width: 448px;
+}
+
+.messageContent {
+  width: 90%;
+}
+
+.messageAction {
+  margin-block-start: 80px;
+}
+
+.messageAction h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+
+  letter-spacing: -0.03em;
+}
+
+.gmail {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.03em;
+
+  /* Brown */
+
+  color: #883f16;
+  margin-block-start: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .mainProyect {
+    display: flex;
+    flex-direction: row;
+    column-gap: 128px;
+  }
+
+  .habilitiesRow {
+    width: 736px;
+  }
+  .messageContent {
+    width: 627px;
+  }
+}

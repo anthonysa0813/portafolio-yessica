@@ -1,0 +1,39 @@
+footer {
+  padding-block: 40px;
+  margin-block-start: 80px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  justify-content: space-between;
+}
+
+footer nav {
+  display: flex;
+  gap: 35px;
+}
+
+footer nav a {
+  color: var(--main-black);
+}
+
+footer span {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  /* identical to box height, or 67% */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .footerContent {
+    flex-direction: row;
+  }
+}

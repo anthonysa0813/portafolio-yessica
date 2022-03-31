@@ -1,0 +1,43 @@
+.heroContainer {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.hero {
+  margin-block-end: 66px;
+  margin-block-start: 40px;
+}
+
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.firstCol h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 64px;
+  /* or 107% */
+
+  letter-spacing: -0.03em;
+
+  /* Main Black */
+
+  color: #181717;
+}
+
+.firstCol p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  letter-spacing: -0.03em;
+  color: var(--main-gray);
+}
